@@ -1,0 +1,30 @@
+$layout-name: 'l-search';
+
+.#{$layout-name} {
+    max-width: 700px;
+    margin: 2rem auto;
+
+    @media screen and (max-width: 991px) {
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+
+    &__title {
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        text-align: center;
+        color: $color-folk-white;
+    }
+
+    &__field {
+        width: 100%;
+        padding: .8rem 1rem;
+        border: 0 !important;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+        border-radius: 8px;
+        outline: 0 !important;
+        display: block;
+        color: $color-folk-very-light-gray;
+        background-color: $color-folk-light-gray;
+    }
+}
